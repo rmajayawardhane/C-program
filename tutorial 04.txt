@@ -1,0 +1,126 @@
+tutorial 04
+group A
+29786
+
+1. 
+a) The condition of if must be in brackets. 
+b) The second assignment of the condition must be in  ‘numNeighbors==4’ 
+c) The body must be in curly brackets as  
+if (numNeighbors >= 3 || numNeighbors == 4){ 
+        ++numNeighbors; 
+        printf("You are dead! \n " ); 
+    }else{ 
+        --numNeighbors; 
+    } 
+2. 
+No, IÆm here! 
+No, actually, IÆm here! 
+3. 
+bool doesSignificantWork,makesBreakthrough,nobelPrizeCandidate; 
+    if (doesSignificantWork==true) 
+    if (makesBreakthrough==true) 
+       nobelPrizeCandidate = true; 
+    else{ 
+       nobelPrizeCandidate = false; 
+    } 
+    else if (!doesSignificantWork){ 
+       nobelPrizeCandidate = false; 
+    } 
+4. 
+a) 
+#include<stdio.h> 
+int main() 
+{ 
+    char taxCode = 'T'; 
+    int price = 100; 
+    int taxRate = 10; 
+ 
+    if (taxCode == 'T') { 
+      price += price * taxRate / 100; 
+    } 
+} 
+b) 
+#include<stdio.h> 
+int main() 
+{ 
+    int opCode = 1; 
+    double X; 
+    double Y; 
+ 
+    if (opCode == 1) { 
+         printf("Enter the value of X: "); 
+         scanf("%lf", &X); 
+         printf("Enter the value of Y: "); 
+         scanf("%lf", &Y);
+
+
+double sum = X + Y; 
+         printf("The sum of X and Y is %lf\n", sum); 
+    } 
+} 
+c) 
+#include<stdio.h> 
+int main() 
+{ 
+    int currentNumber; 
+    printf("Enter a number "); 
+    scanf("%d",&currentNumber); 
+ 
+    if (currentNumber % 2 == 1) { 
+         currentNumber = 3 * currentNumber + 1; 
+    }else{ 
+         currentNumber = currentNumber / 2; 
+    } 
+    printf("currentNumber %d\n",currentNumber); 
+} 
+d) 
+#include<stdio.h> 
+#include <stdbool.h> 
+int main() 
+{ 
+    int year; 
+    bool leapYear; 
+ 
+    printf("Enter the year: "); 
+    scanf("%d", &year); 
+ 
+    leapYear = false; 
+ 
+    if (year % 4 == 0) { 
+    leapYear = true; 
+    } 
+ 
+    if (year % 100 == 0) { 
+    leapYear = false; 
+    } 
+ 
+    if (year % 400 == 0) { 
+    leapYear = true; 
+    } 
+ 
+printf("The year %d is a leap year: %s\n", year, leapYear ? "true" : "false"); 
+} 
+e) 
+#include <stdio.h> 
+ 
+int main() { 
+  int distance; 
+  double cost; 
+ 
+  printf("Enter the distance: "); 
+  scanf("%d", &distance); 
+ 
+  if (distance >= 0 && distance <= 100) { 
+    cost = 5.00; 
+  } else if (distance > 100 && distance <= 500) { 
+    cost = 8.00; 
+  } else if (distance > 500 && distance < 1000) { 
+    cost = 10.00; 
+  } else if (distance >= 1000) { 
+    cost = 12.00; 
+  } else { 
+    printf("Invalid distance entered."); 
+  } 
+ printf("The cost is: $%.2f\n", cost); 
+ return 0; 
+}

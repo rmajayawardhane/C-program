@@ -1,0 +1,39 @@
+tutorial 03
+group A
+29786
+1. Using assignment operator                    x=x+1; 
+    Using increment operator(postfix)        x++; 
+    Using increment operator(prefix)          ++x;     
+    Using += operator                                     x+=1;  
+ 
+2.  
+a)   z=x+y; 
+           x++; 
+b)  product*=2; 
+c)  product =product*2; 
+d) if(count>10) { 
+             printf(“Count is greater than 10.”); 
+             } 
+e)  x--; 
+     total-=x; 
+f)  total+=x; 
+     x--; 
+g) 1) q%diviser=n; 
+         q=n; 
+     2) q%=diviser; 
+          q=q%diviser; 
+h)  printf(“%.2f”,123.4567); 
+i)   printf(“%.3f”,3.14159); 
+ 
+3.  
+a)  scanf(“%d”,&x); 
+b)  scanf(“%d”,&y); 
+c)  i=1; 
+d)  power=1; 
+e)  power*x=z; 
+     power=z; 
+f)  i++; 
+g)  while(i<=y){ 
+          …….. 
+          } 
+h)  printf(“%d”,power);

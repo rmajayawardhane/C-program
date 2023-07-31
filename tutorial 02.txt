@@ -1,0 +1,66 @@
+tutorial 02
+group A
+29786
+1. using “ // ” 
+     Comments are used to explain the code written. They do not execute when the program is running. 
+ 
+2. int main() 
+ 
+3. scanf is used to read data that is inputted by the user. 
+ 
+4. Yes, c language is a case sensitive language. In C language capitalization, identifiers, keywords     matter. 
+ 
+5. Valid identifiers 
+ record1 
+ name 
+ name_and_address 
+ return  
+    Invalid identifiers 
+ 1record – the first character cannot be a digit 
+ $tax – identifier cannot start with a symbol 
+ name and address – identifiers cannot contain spaces 
+ file-3 – identifiers cannot contain hyphens 
+ 123-45-6789  -  identifiers cannot contain hyphens 
+ 
+6. 
+a) False, if we want to print next line in a new line we have to use “\n” in the end of the quoted printf statement. 
+ 
+b) False, comments do not print anything on screen 
+c.) True, \n is used to begin in a new line. 
+d) True. All variables must be declared before using it in the code. 
+e) True, variables must be given a type when they are declaring like int, char, float. 
+f) False. C is a case sensitive language therefore it does not identify ‘number’ as ‘NuMbEr’. 
+g) False. Three lines can be printed using single print statement. 
+ 
+7.   
+   * 
+   ** 
+   *** 
+   **** 
+   * 
+ 
+8. 
+a) scanf(“d”,&value); 
+b) printf(“The product of %d and %d is %d  \n”,x,y,z); 
+c) scanf(“%d“,&anInteger ); 
+d) printf(“Remainder of %d divided by %d is %d \n”,x,y,x5y); 
+e) printf(“The sum is %d \n”,x+y); 
+f) printf(“The value you entered is: %d \n”,value); 
+ 
+9. 
+a) 2 
+b) 4 
+c) x= 
+d) x=2 
+e) 5=5 
+f) Nothing 
+g) Nothing 
+h) Nothing 
+i) Nothing 
+ 
+10. 
+a) False, they are evaluated according to their precedence and associativity. 
+b) True 
+c) False, this is a print statement 
+d) False, the order of evaluation of a valid arithmetic expression containing no parenthesis is also not specified. Compiler is free to evaluate expressions in any order. 
+e) False , 3g,87,67h2 and 2h are invalid variables but h22 is valid variable in c.

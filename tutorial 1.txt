@@ -1,0 +1,44 @@
+tutorial 01
+groupA 
+29786
+
+
+1. A programming language is a set of instructions given to a computer about what to do. Here are some reasons why programming is important. 
+            i. To solve problems – programming languages can be used to solve problems that is                                                    difficult to solve manually. 
+             ii. To automate tasks – programming languages can be used to do tasks that was done manually earlier. 
+ 
+Furthermore, programming languages are used in many occasions. 
+ 1.software development 
+ 2.data science 
+ 3.web development 
+ 4.game development    etc. 
+ 
+ 
+2. 
+Source code vs. machine code 
+• Source code is set of instructions written in a programming language that can be read by humans. 
+• Machine code is a set of instructions that are written in a language that can be understand by computer only.  
+ 
+High level language vs. Low level language  
+• High level language can be easily recognized by humans and is easy to design. 
+• Low level language can’t be easily understand by humans but it is easily executed by computers. 
+ 
+Compiler vs. Interpreter 
+• Compiler is program that translates high level language into machine language. 
+• Interpreter is a program that executes high level language programs line by line. 
+ 
+Structured language vs. Object orientated language. 
+• Structured language is a language that uses structured programming techniques like functions and procedures to organize code. 
+• Object orientated language ins a language that uses objects to organize code. Objects are self-contained units of code that contain data and methods. 
+ 
+C vs. C++ 
+• C is a structured programming language that used for system applications and low-level programming applications, and it is known for its efficiency and performance. 
+• C++ is an object orientated programming language having some additional features like data hiding, data abstraction, inheritance, etc. 
+ 
+C++ vs. Java 
+• C++ is used more in large scale developments like banks and governments.  
+• java is used more often in consumer products like apps, software, and video games. 
+ 
+Syntax error vs. Logical error 
+• Syntax error is a mistake in the grammar of a programming language. 
+• Logical error is mistake in the logic of a programming language problem.
